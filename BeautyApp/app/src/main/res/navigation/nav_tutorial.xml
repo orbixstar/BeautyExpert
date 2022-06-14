@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_tutorial"
+    app:startDestination="@id/tutorial1Fragment">
+
+
+    <fragment
+        android:id="@+id/tutorial1Fragment"
+        android:name="com.orbixstar.beautyapp.ui.fragments.tutorials.Tutorial1Fragment"
+        android:label="fragment_tutorial1"
+        tools:layout="@layout/fragment_tutorial1" />
+    <fragment
+        android:id="@+id/tutorial2Fragment"
+        android:name="com.orbixstar.beautyapp.ui.fragments.tutorials.Tutorial2Fragment"
+        android:label="fragment_tutorial2"
+        tools:layout="@layout/fragment_tutorial2" />
+    <fragment
+        android:id="@+id/tutorial3Fragment"
+        android:name="com.orbixstar.beautyapp.ui.fragments.tutorials.Tutorial3Fragment"
+        android:label="fragment_tutorial3"
+        tools:layout="@layout/fragment_tutorial3" />
+
+
+</navigation>
